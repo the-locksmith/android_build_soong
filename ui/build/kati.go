@@ -181,6 +181,7 @@ func runKatiPackage(ctx Context, config Config) {
 			"TMPDIR",
 
 			// Tool configs
+			"ASAN_SYMBOLIZER_PATH",
 			"JAVA_HOME",
 			"PYTHONDONTWRITEBYTECODE",
 
